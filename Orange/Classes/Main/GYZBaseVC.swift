@@ -22,8 +22,8 @@ class GYZBaseVC: UIViewController {
         self.view.backgroundColor = kBackgroundColor
         
         if navigationController?.childViewControllers.count > 1 {
-            // 添加返回按钮
-            self.navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "icon_black_white"), style: .done, target: self, action: #selector(clickedBackBtn))
+            // 添加返回按钮,不被系统默认渲染,显示图像原始颜色
+            self.navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "icon_back")?.withRenderingMode(.alwaysOriginal), style: .done, target: self, action: #selector(clickedBackBtn))
         }
         
         getUserInfo()

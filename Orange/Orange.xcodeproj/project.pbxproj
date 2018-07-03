@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A76D3E320EB5CF00019AE40 /* ORBindPhoneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A76D3E220EB5CF00019AE40 /* ORBindPhoneVC.swift */; };
 		0A8BCE6E20EA085A003D593D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BCE6D20EA085A003D593D /* AppDelegate.swift */; };
 		0A8BCE7020EA085A003D593D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BCE6F20EA085A003D593D /* ViewController.swift */; };
 		0A8BCE7320EA085A003D593D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A8BCE7120EA085A003D593D /* Main.storyboard */; };
@@ -26,7 +27,6 @@
 		0A8BCF1920EA0D1B003D593D /* GYZBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BCEBA20EA0D1B003D593D /* GYZBaseVC.swift */; };
 		0A8BCF1A20EA0D1B003D593D /* PWServiceCenterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BCEBD20EA0D1B003D593D /* PWServiceCenterModel.swift */; };
 		0A8BCF1B20EA0D1B003D593D /* LHSUserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BCEBE20EA0D1B003D593D /* LHSUserInfoModel.swift */; };
-		0A8BCF1C20EA0D1B003D593D /* PWRegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BCEC020EA0D1B003D593D /* PWRegisterVC.swift */; };
 		0A8BCF1D20EA0D1B003D593D /* LHSQuickLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BCEC120EA0D1B003D593D /* LHSQuickLoginVC.swift */; };
 		0A8BCF1E20EA0D1B003D593D /* LHSLoginInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BCEC320EA0D1B003D593D /* LHSLoginInputView.swift */; };
 		0A8BCF1F20EA0D1B003D593D /* GYZUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BCEC620EA0D1B003D593D /* GYZUIView+Extension.swift */; };
@@ -102,6 +102,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A76D3E220EB5CF00019AE40 /* ORBindPhoneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORBindPhoneVC.swift; sourceTree = "<group>"; };
 		0A8BCE6A20EA085A003D593D /* Orange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A8BCE6D20EA085A003D593D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A8BCE6F20EA085A003D593D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -127,7 +128,6 @@
 		0A8BCEBA20EA0D1B003D593D /* GYZBaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYZBaseVC.swift; sourceTree = "<group>"; };
 		0A8BCEBD20EA0D1B003D593D /* PWServiceCenterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWServiceCenterModel.swift; sourceTree = "<group>"; };
 		0A8BCEBE20EA0D1B003D593D /* LHSUserInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHSUserInfoModel.swift; sourceTree = "<group>"; };
-		0A8BCEC020EA0D1B003D593D /* PWRegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWRegisterVC.swift; sourceTree = "<group>"; };
 		0A8BCEC120EA0D1B003D593D /* LHSQuickLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHSQuickLoginVC.swift; sourceTree = "<group>"; };
 		0A8BCEC320EA0D1B003D593D /* LHSLoginInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHSLoginInputView.swift; sourceTree = "<group>"; };
 		0A8BCEC620EA0D1B003D593D /* GYZUIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GYZUIView+Extension.swift"; sourceTree = "<group>"; };
@@ -492,8 +492,8 @@
 		0A8BCEBF20EA0D1B003D593D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				0A8BCEC020EA0D1B003D593D /* PWRegisterVC.swift */,
 				0A8BCEC120EA0D1B003D593D /* LHSQuickLoginVC.swift */,
+				0A76D3E220EB5CF00019AE40 /* ORBindPhoneVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -903,7 +903,6 @@
 				0A8BCF3120EA0D1B003D593D /* HXTagCollectionViewFlowLayout.m in Sources */,
 				0A8BCF1F20EA0D1B003D593D /* GYZUIView+Extension.swift in Sources */,
 				0A8BCF5920EA0E3C003D593D /* ORMineVC.swift in Sources */,
-				0A8BCF1C20EA0D1B003D593D /* PWRegisterVC.swift in Sources */,
 				0A8BCF5320EA0D6E003D593D /* ORHomeVC.swift in Sources */,
 				0A8BCF2120EA0D1B003D593D /* GYZUIButton+Extension.swift in Sources */,
 				0A8BCF2320EA0D1B003D593D /* MBProgressHUD+Extension.swift in Sources */,
@@ -916,6 +915,7 @@
 				0A8BCF2A20EA0D1B003D593D /* AXBadgeView.swift in Sources */,
 				0A8BCF3F20EA0D1B003D593D /* GYZScanQrcodeVC.swift in Sources */,
 				0A8BCF1220EA0D1B003D593D /* LHSAddPhotoView.swift in Sources */,
+				0A76D3E320EB5CF00019AE40 /* ORBindPhoneVC.swift in Sources */,
 				0A8BCF5020EA0D1B003D593D /* GYZCheckTool.m in Sources */,
 				0A8BCF2920EA0D1B003D593D /* GYZEmptyView.swift in Sources */,
 				0A8BCF3020EA0D1B003D593D /* HXTagAttribute.m in Sources */,

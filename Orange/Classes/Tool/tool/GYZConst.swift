@@ -110,12 +110,6 @@ let kJPushAppKey = "62f70fe9bed6d366b2c740a8"
 /// 微信APPID
 let kWeChatAppID = "wx91a992eb1ae1737e"
 
-//客服电话
-let KFPhone = "400-660-9929"
-/// 公司名称
-let kCompanyName = "常州汇嘉宏网络科技有限公司"
-/// 公司英文名称
-let kCompanyEnName = "@2016 JiaLife Network Technology Co.,Ltd"
 
 /// 无网络提示
 let kNoNetWork = "当前网络不可用，请检查网络情况"
@@ -161,7 +155,7 @@ let kGrayLineColor : UIColor = UIColor.UIColorFromRGB(valueRGB: 0xdcdcdc)
 /// btn不可点击背景色
 let kBtnNoClickBGColor : UIColor = UIColor.UIColorFromRGB(valueRGB: 0xd8d8d8)
 /// btn可点击背景色
-let kBtnClickBGColor : UIColor = UIColor.UIColorFromRGB(valueRGB: 0x2dae99)
+let kBtnClickBGColor : UIColor = UIColor.UIColorFromRGB(valueRGB: 0xe87d3b)
 /// btn可点击浅绿色背景色
 let kBtnClickLightGreenColor : UIColor = UIColor.UIColorFromRGB(valueRGB: 0x36dbc0)
 /// 系统白色

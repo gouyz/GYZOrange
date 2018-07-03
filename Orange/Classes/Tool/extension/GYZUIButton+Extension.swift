@@ -76,14 +76,14 @@ extension UIButton {
                 DispatchQueue.main.async(execute: {
                     self.isEnabled = false
                     self.setTitle("剩余\(times)s", for: .disabled)
-                    self.backgroundColor = kBtnNoClickBGColor
+//                    self.backgroundColor = kBtnNoClickBGColor
                     
                     times -= 1
                 })
             } else{
                 DispatchQueue.main.async(execute: {
                     self.isEnabled = true
-                    self.backgroundColor = kBtnClickBGColor
+//                    self.backgroundColor = kBtnClickBGColor
                     timer.cancel()
                 })
             }
