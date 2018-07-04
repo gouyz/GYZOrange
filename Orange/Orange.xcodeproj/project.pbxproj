@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A74840220ECA0C8008368DA /* ORHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A74840120ECA0C8008368DA /* ORHomeCell.swift */; };
+		0A74840420ECA1C5008368DA /* GYZImgAndTxtBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A74840320ECA1C5008368DA /* GYZImgAndTxtBtnView.swift */; };
+		0A74840620ECAFF3008368DA /* ORChartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A74840520ECAFF3008368DA /* ORChartVC.swift */; };
+		0A74840820ECB082008368DA /* ORChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A74840720ECB082008368DA /* ORChartCell.swift */; };
+		0A74840A20ECB156008368DA /* ORChartDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A74840920ECB156008368DA /* ORChartDetailVC.swift */; };
+		0A74840C20ECB1CB008368DA /* ORChartDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A74840B20ECB1CB008368DA /* ORChartDetailModel.swift */; };
+		0A74840E20ECB21B008368DA /* TAChartDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A74840D20ECB21B008368DA /* TAChartDetailCell.swift */; };
+		0A74841020ECB2D7008368DA /* GYZBottomSendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A74840F20ECB2D7008368DA /* GYZBottomSendView.swift */; };
+		0A74841220ECBCF9008368DA /* ORMyLikesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A74841120ECBCF9008368DA /* ORMyLikesVC.swift */; };
+		0A74841420ECBD7B008368DA /* ORLikesMeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A74841320ECBD7B008368DA /* ORLikesMeVC.swift */; };
+		0A74841620ECBF55008368DA /* ORMyLikesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A74841520ECBF55008368DA /* ORMyLikesCell.swift */; };
+		0A74841820ECC358008368DA /* ORLikesMeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A74841720ECC358008368DA /* ORLikesMeCell.swift */; };
 		0A76D3E320EB5CF00019AE40 /* ORBindPhoneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A76D3E220EB5CF00019AE40 /* ORBindPhoneVC.swift */; };
 		0A8BCE6E20EA085A003D593D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BCE6D20EA085A003D593D /* AppDelegate.swift */; };
 		0A8BCE7020EA085A003D593D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BCE6F20EA085A003D593D /* ViewController.swift */; };
@@ -102,6 +114,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A74840120ECA0C8008368DA /* ORHomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORHomeCell.swift; sourceTree = "<group>"; };
+		0A74840320ECA1C5008368DA /* GYZImgAndTxtBtnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GYZImgAndTxtBtnView.swift; sourceTree = "<group>"; };
+		0A74840520ECAFF3008368DA /* ORChartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORChartVC.swift; sourceTree = "<group>"; };
+		0A74840720ECB082008368DA /* ORChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORChartCell.swift; sourceTree = "<group>"; };
+		0A74840920ECB156008368DA /* ORChartDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORChartDetailVC.swift; sourceTree = "<group>"; };
+		0A74840B20ECB1CB008368DA /* ORChartDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORChartDetailModel.swift; sourceTree = "<group>"; };
+		0A74840D20ECB21B008368DA /* TAChartDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAChartDetailCell.swift; sourceTree = "<group>"; };
+		0A74840F20ECB2D7008368DA /* GYZBottomSendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GYZBottomSendView.swift; sourceTree = "<group>"; };
+		0A74841120ECBCF9008368DA /* ORMyLikesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORMyLikesVC.swift; sourceTree = "<group>"; };
+		0A74841320ECBD7B008368DA /* ORLikesMeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORLikesMeVC.swift; sourceTree = "<group>"; };
+		0A74841520ECBF55008368DA /* ORMyLikesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORMyLikesCell.swift; sourceTree = "<group>"; };
+		0A74841720ECC358008368DA /* ORLikesMeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORLikesMeCell.swift; sourceTree = "<group>"; };
 		0A76D3E220EB5CF00019AE40 /* ORBindPhoneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORBindPhoneVC.swift; sourceTree = "<group>"; };
 		0A8BCE6A20EA085A003D593D /* Orange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A8BCE6D20EA085A003D593D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -307,6 +331,7 @@
 		0A8BCE9D20EA0D1B003D593D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0A74840B20ECB1CB008368DA /* ORChartDetailModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -315,6 +340,8 @@
 			isa = PBXGroup;
 			children = (
 				0A8BCF5220EA0D6E003D593D /* ORHomeVC.swift */,
+				0A74840520ECAFF3008368DA /* ORChartVC.swift */,
+				0A74840920ECB156008368DA /* ORChartDetailVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -322,6 +349,9 @@
 		0A8BCE9F20EA0D1B003D593D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0A74840D20ECB21B008368DA /* TAChartDetailCell.swift */,
+				0A74840120ECA0C8008368DA /* ORHomeCell.swift */,
+				0A74840720ECB082008368DA /* ORChartCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -347,6 +377,8 @@
 			isa = PBXGroup;
 			children = (
 				0A8BCF5420EA0DB6003D593D /* ORLikeVC.swift */,
+				0A74841120ECBCF9008368DA /* ORMyLikesVC.swift */,
+				0A74841320ECBD7B008368DA /* ORLikesMeVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -354,6 +386,8 @@
 		0A8BCEA320EA0D1B003D593D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0A74841520ECBF55008368DA /* ORMyLikesCell.swift */,
+				0A74841720ECC358008368DA /* ORLikesMeCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -391,6 +425,8 @@
 				0A8BCEAB20EA0D1B003D593D /* GYZCommonInfoCell.swift */,
 				0A8BCEAC20EA0D1B003D593D /* LHSCheckView.swift */,
 				0A8BCEAD20EA0D1B003D593D /* LHSSelectPayMethodView.swift */,
+				0A74840320ECA1C5008368DA /* GYZImgAndTxtBtnView.swift */,
+				0A74840F20ECB2D7008368DA /* GYZBottomSendView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -885,10 +921,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A8BCF4120EA0D1B003D593D /* GYZSheetView.swift in Sources */,
+				0A74840620ECAFF3008368DA /* ORChartVC.swift in Sources */,
+				0A74841220ECBCF9008368DA /* ORMyLikesVC.swift in Sources */,
+				0A74841620ECBF55008368DA /* ORMyLikesCell.swift in Sources */,
 				0A8BCF4920EA0D1B003D593D /* GYZNetWork.swift in Sources */,
 				0A8BCF2020EA0D1B003D593D /* ETNavBarTransparent.swift in Sources */,
 				0A8BCF4820EA0D1B003D593D /* ContentView.swift in Sources */,
 				0A8BCF2C20EA0D1B003D593D /* GYZLoadingView.swift in Sources */,
+				0A74840220ECA0C8008368DA /* ORHomeCell.swift in Sources */,
+				0A74841820ECC358008368DA /* ORLikesMeCell.swift in Sources */,
 				0A8BCF1720EA0D1B003D593D /* GYZBaseWhiteNavVC.swift in Sources */,
 				0A8BCF4A20EA0D1B003D593D /* GYZUpdateVersionTool.swift in Sources */,
 				0A8BCF3E20EA0D1B003D593D /* IQActionSheetViewController.m in Sources */,
@@ -902,7 +943,9 @@
 				0A8BCF2520EA0D1B003D593D /* GYZUIColor+Extension.swift in Sources */,
 				0A8BCF3120EA0D1B003D593D /* HXTagCollectionViewFlowLayout.m in Sources */,
 				0A8BCF1F20EA0D1B003D593D /* GYZUIView+Extension.swift in Sources */,
+				0A74840420ECA1C5008368DA /* GYZImgAndTxtBtnView.swift in Sources */,
 				0A8BCF5920EA0E3C003D593D /* ORMineVC.swift in Sources */,
+				0A74841020ECB2D7008368DA /* GYZBottomSendView.swift in Sources */,
 				0A8BCF5320EA0D6E003D593D /* ORHomeVC.swift in Sources */,
 				0A8BCF2120EA0D1B003D593D /* GYZUIButton+Extension.swift in Sources */,
 				0A8BCF2320EA0D1B003D593D /* MBProgressHUD+Extension.swift in Sources */,
@@ -920,16 +963,20 @@
 				0A8BCF2920EA0D1B003D593D /* GYZEmptyView.swift in Sources */,
 				0A8BCF3020EA0D1B003D593D /* HXTagAttribute.m in Sources */,
 				0A8BCF5120EA0D1B003D593D /* GYZConst.swift in Sources */,
+				0A74840820ECB082008368DA /* ORChartCell.swift in Sources */,
 				0A8BCF4C20EA0D1B003D593D /* GYZOpenCameraPhotosTool.swift in Sources */,
 				0A8BCF3320EA0D1B003D593D /* ZCycleViewCell.swift in Sources */,
 				0A8BCF1E20EA0D1B003D593D /* LHSLoginInputView.swift in Sources */,
+				0A74840A20ECB156008368DA /* ORChartDetailVC.swift in Sources */,
 				0A8BCF1B20EA0D1B003D593D /* LHSUserInfoModel.swift in Sources */,
 				0A8BCF3B20EA0D1B003D593D /* IQActionSheetToolbar.m in Sources */,
+				0A74841420ECBD7B008368DA /* ORLikesMeVC.swift in Sources */,
 				0A8BCF2E20EA0D1B003D593D /* HXTagsView.m in Sources */,
 				0A8BCF1520EA0D1B003D593D /* LHSSelectPayMethodView.swift in Sources */,
 				0A8BCF4620EA0D1B003D593D /* ScrollPageView.swift in Sources */,
 				0A8BCF2B20EA0D1B003D593D /* LHSCustomAlertView.swift in Sources */,
 				0A8BCF2220EA0D1B003D593D /* GYZUIImage+Extension.swift in Sources */,
+				0A74840E20ECB21B008368DA /* TAChartDetailCell.swift in Sources */,
 				0A8BCF4720EA0D1B003D593D /* ScrollSegmentView.swift in Sources */,
 				0A8BCE7020EA085A003D593D /* ViewController.swift in Sources */,
 				0A8BCF4420EA0D1B003D593D /* WXApiManager.swift in Sources */,
@@ -939,6 +986,7 @@
 				0A8BCE6E20EA085A003D593D /* AppDelegate.swift in Sources */,
 				0A8BCF2D20EA0D1B003D593D /* HXTagCollectionViewCell.m in Sources */,
 				0A8BCF2620EA0D1B003D593D /* GYZUIViewControl+Empty.swift in Sources */,
+				0A74840C20ECB1CB008368DA /* ORChartDetailModel.swift in Sources */,
 				0A8BCF4520EA0D1B003D593D /* SegmentStyle.swift in Sources */,
 				0A8BCF3420EA0D1B003D593D /* ZCycleLayout.swift in Sources */,
 				0A8BCF4E20EA0D1B003D593D /* GYZThrowLineTool.swift in Sources */,
