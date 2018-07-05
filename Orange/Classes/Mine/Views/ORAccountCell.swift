@@ -1,14 +1,15 @@
 //
-//  GYZCommonArrowCell.swift
-//  pureworks
-//  基本信息cell 只包含左右2个label及右侧箭头
-//  Created by gouyz on 2018/6/8.
+//  ORAccountCell.swift
+//  Orange
+//  账号和安全 账号绑定
+//  Created by gouyz on 2018/7/5.
 //  Copyright © 2018年 gyz. All rights reserved.
 //
 
 import UIKit
 
-class GYZCommonArrowCell: UITableViewCell {
+class ORAccountCell: UITableViewCell {
+
     override init(style: UITableViewCellStyle, reuseIdentifier: String?){
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
@@ -22,27 +23,26 @@ class GYZCommonArrowCell: UITableViewCell {
     
     func setupUI(){
         contentView.addSubview(nameLab)
-        contentView.addSubview(contentLab)
-        contentView.addSubview(rightIconView)
+        contentView.addSubview(iconView)
+        contentView.addSubview(bindBtn)
         contentView.addSubview(lineView)
         
-        nameLab.snp.makeConstraints { (make) in
+        iconView.snp.makeConstraints { (make) in
             make.left.equalTo(kMargin)
             make.centerY.equalTo(contentView)
-            make.height.equalTo(kTitleHeight)
-            make.width.equalTo(100)
+            make.height.equalTo(25)
+            make.width.equalTo(25)
         }
-        contentLab.snp.makeConstraints { (make) in
-            make.right.equalTo(rightIconView.snp.left).offset(-kMargin)
-            make.left.equalTo(nameLab.snp.right).offset(5)
-            make.bottom.equalTo(lineView.snp.top).offset(-5)
-            make.top.equalTo(5)
-            make.height.greaterThanOrEqualTo(34)
+        nameLab.snp.makeConstraints { (make) in
+            make.left.equalTo(iconView.snp.right).offset(kMargin)
+            make.top.equalTo(contentView)
+            make.right.equalTo(bindBtn.snp.left).offset(-kMargin)
+            make.bottom.equalTo(lineView.snp.top)
         }
-        rightIconView.snp.makeConstraints { (make) in
+        bindBtn.snp.makeConstraints { (make) in
             make.centerY.equalTo(contentView)
             make.right.equalTo(-kMargin)
-            make.size.equalTo(CGSize.init(width: 10, height: 12))
+            make.size.equalTo(CGSize.init(width: 60, height: 24))
         }
         lineView.snp.makeConstraints { (make) in
             make.left.right.bottom.equalTo(contentView)
@@ -50,6 +50,8 @@ class GYZCommonArrowCell: UITableViewCell {
         }
     }
     
+    /// 图标
+    lazy var iconView: UIImageView = UIImageView.init(image: UIImage.init(named: "icon_account_wechat"))
     /// cell title
     lazy var nameLab : UILabel = {
         let lab = UILabel()
@@ -59,19 +61,17 @@ class GYZCommonArrowCell: UITableViewCell {
         return lab
     }()
     
-    /// 内容
-    var contentLab : UILabel = {
-        let lab = UILabel()
-        lab.font = k13Font
-        lab.textColor = kBlackFontColor
-        lab.numberOfLines = 0
-        lab.textAlignment = .right
+    /// 绑定
+    lazy var bindBtn : UIButton = {
+        let btn = UIButton.init(type: .custom)
+        btn.backgroundColor = kBackgroundColor
+        btn.titleLabel?.font = k12Font
+        btn.setTitleColor(kBlackFontColor, for: .normal)
+        btn.setTitle("绑定", for: .normal)
+        btn.cornerRadius = 12
         
-        return lab
+        return btn
     }()
-    /// 右侧箭头图标
-    lazy var rightIconView: UIImageView = UIImageView.init(image: UIImage.init(named: "icon_right_gray"))
-    
     /// 分割线
     var lineView : UIView = {
         let line = UIView()

@@ -14,6 +14,7 @@ class ORMyLikesCell: UICollectionViewCell {
         
         addSubview(likesImgView)
         likesImgView.addSubview(likesView)
+        likesImgView.addSubview(deleteImgView)
         
         likesImgView.snp.makeConstraints { (make) in
             make.edges.equalTo(0)
@@ -24,6 +25,12 @@ class ORMyLikesCell: UICollectionViewCell {
             make.bottom.equalTo(-5)
             make.height.equalTo(34)
             make.width.equalTo(30)
+        }
+        deleteImgView.snp.makeConstraints { (make) in
+            make.right.equalTo(-5)
+            make.top.equalTo(5)
+            make.height.equalTo(18)
+            make.width.equalTo(15)
         }
     }
     
@@ -48,5 +55,14 @@ class ORMyLikesCell: UICollectionViewCell {
         
         return view
         
+    }()
+    
+    /// 删除
+    lazy var deleteImgView : UIImageView = {
+        let imgView = UIImageView()
+        imgView.isHidden = true
+        imgView.image = UIImage.init(named: "icon_delete_gray")
+        
+        return imgView
     }()
 }

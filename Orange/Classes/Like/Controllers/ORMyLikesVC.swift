@@ -45,7 +45,7 @@ class ORMyLikesVC: GYZBaseVC {
         let collView = UICollectionView.init(frame: CGRect.zero, collectionViewLayout: layout)
         collView.dataSource = self
         collView.delegate = self
-        collView.backgroundColor = kWhiteColor
+        collView.backgroundColor = kBackgroundColor
         
         collView.register(ORMyLikesCell.self, forCellWithReuseIdentifier: myLikesCell)
         

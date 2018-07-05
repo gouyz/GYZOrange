@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A6F3CC920EDEF7C0011F20C /* ORSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F3CC820EDEF7C0011F20C /* ORSettingVC.swift */; };
+		0A6F3CCB20EDF9410011F20C /* ORSettingNotifyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F3CCA20EDF9410011F20C /* ORSettingNotifyVC.swift */; };
+		0A6F3CCD20EDFA780011F20C /* GYZCommonSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F3CCC20EDFA780011F20C /* GYZCommonSwitchCell.swift */; };
+		0A6F3CCF20EDFCA80011F20C /* ORMyBusinessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F3CCE20EDFCA80011F20C /* ORMyBusinessVC.swift */; };
+		0A6F3CD120EDFCF60011F20C /* GYZLabAndFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F3CD020EDFCF60011F20C /* GYZLabAndFieldView.swift */; };
+		0A6F3CD320EDFDBA0011F20C /* ORMyQrcodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F3CD220EDFDBA0011F20C /* ORMyQrcodeVC.swift */; };
+		0A6F3CD520EE0CF30011F20C /* ORMyAccountSafeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F3CD420EE0CF30011F20C /* ORMyAccountSafeVC.swift */; };
+		0A6F3CD720EE13040011F20C /* LHSGeneralHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F3CD620EE13040011F20C /* LHSGeneralHeaderView.swift */; };
+		0A6F3CD920EE14270011F20C /* ORAccountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F3CD820EE14270011F20C /* ORAccountCell.swift */; };
 		0A74840220ECA0C8008368DA /* ORHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A74840120ECA0C8008368DA /* ORHomeCell.swift */; };
 		0A74840420ECA1C5008368DA /* GYZImgAndTxtBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A74840320ECA1C5008368DA /* GYZImgAndTxtBtnView.swift */; };
 		0A74840620ECAFF3008368DA /* ORChartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A74840520ECAFF3008368DA /* ORChartVC.swift */; };
@@ -114,6 +123,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A6F3CC820EDEF7C0011F20C /* ORSettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORSettingVC.swift; sourceTree = "<group>"; };
+		0A6F3CCA20EDF9410011F20C /* ORSettingNotifyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORSettingNotifyVC.swift; sourceTree = "<group>"; };
+		0A6F3CCC20EDFA780011F20C /* GYZCommonSwitchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GYZCommonSwitchCell.swift; sourceTree = "<group>"; };
+		0A6F3CCE20EDFCA80011F20C /* ORMyBusinessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORMyBusinessVC.swift; sourceTree = "<group>"; };
+		0A6F3CD020EDFCF60011F20C /* GYZLabAndFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYZLabAndFieldView.swift; sourceTree = "<group>"; };
+		0A6F3CD220EDFDBA0011F20C /* ORMyQrcodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORMyQrcodeVC.swift; sourceTree = "<group>"; };
+		0A6F3CD420EE0CF30011F20C /* ORMyAccountSafeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORMyAccountSafeVC.swift; sourceTree = "<group>"; };
+		0A6F3CD620EE13040011F20C /* LHSGeneralHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHSGeneralHeaderView.swift; sourceTree = "<group>"; };
+		0A6F3CD820EE14270011F20C /* ORAccountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORAccountCell.swift; sourceTree = "<group>"; };
 		0A74840120ECA0C8008368DA /* ORHomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORHomeCell.swift; sourceTree = "<group>"; };
 		0A74840320ECA1C5008368DA /* GYZImgAndTxtBtnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GYZImgAndTxtBtnView.swift; sourceTree = "<group>"; };
 		0A74840520ECAFF3008368DA /* ORChartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORChartVC.swift; sourceTree = "<group>"; };
@@ -420,6 +438,8 @@
 		0A8BCEA820EA0D1B003D593D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0A6F3CD620EE13040011F20C /* LHSGeneralHeaderView.swift */,
+				0A6F3CD020EDFCF60011F20C /* GYZLabAndFieldView.swift */,
 				0A8BCEA920EA0D1B003D593D /* GYZCommonArrowCell.swift */,
 				0A8BCEAA20EA0D1B003D593D /* LHSAddPhotoView.swift */,
 				0A8BCEAB20EA0D1B003D593D /* GYZCommonInfoCell.swift */,
@@ -427,6 +447,7 @@
 				0A8BCEAD20EA0D1B003D593D /* LHSSelectPayMethodView.swift */,
 				0A74840320ECA1C5008368DA /* GYZImgAndTxtBtnView.swift */,
 				0A74840F20ECB2D7008368DA /* GYZBottomSendView.swift */,
+				0A6F3CCC20EDFA780011F20C /* GYZCommonSwitchCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -484,6 +505,11 @@
 			isa = PBXGroup;
 			children = (
 				0A8BCF5820EA0E3C003D593D /* ORMineVC.swift */,
+				0A6F3CC820EDEF7C0011F20C /* ORSettingVC.swift */,
+				0A6F3CCA20EDF9410011F20C /* ORSettingNotifyVC.swift */,
+				0A6F3CCE20EDFCA80011F20C /* ORMyBusinessVC.swift */,
+				0A6F3CD220EDFDBA0011F20C /* ORMyQrcodeVC.swift */,
+				0A6F3CD420EE0CF30011F20C /* ORMyAccountSafeVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -491,6 +517,7 @@
 		0A8BCEB520EA0D1B003D593D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0A6F3CD820EE14270011F20C /* ORAccountCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -921,6 +948,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A8BCF4120EA0D1B003D593D /* GYZSheetView.swift in Sources */,
+				0A6F3CD320EDFDBA0011F20C /* ORMyQrcodeVC.swift in Sources */,
 				0A74840620ECAFF3008368DA /* ORChartVC.swift in Sources */,
 				0A74841220ECBCF9008368DA /* ORMyLikesVC.swift in Sources */,
 				0A74841620ECBF55008368DA /* ORMyLikesCell.swift in Sources */,
@@ -942,6 +970,7 @@
 				0A8BCF3220EA0D1B003D593D /* ZCycleView.swift in Sources */,
 				0A8BCF2520EA0D1B003D593D /* GYZUIColor+Extension.swift in Sources */,
 				0A8BCF3120EA0D1B003D593D /* HXTagCollectionViewFlowLayout.m in Sources */,
+				0A6F3CD520EE0CF30011F20C /* ORMyAccountSafeVC.swift in Sources */,
 				0A8BCF1F20EA0D1B003D593D /* GYZUIView+Extension.swift in Sources */,
 				0A74840420ECA1C5008368DA /* GYZImgAndTxtBtnView.swift in Sources */,
 				0A8BCF5920EA0E3C003D593D /* ORMineVC.swift in Sources */,
@@ -951,12 +980,16 @@
 				0A8BCF2320EA0D1B003D593D /* MBProgressHUD+Extension.swift in Sources */,
 				0A8BCF1120EA0D1B003D593D /* GYZCommonArrowCell.swift in Sources */,
 				0A8BCF1920EA0D1B003D593D /* GYZBaseVC.swift in Sources */,
+				0A6F3CCD20EDFA780011F20C /* GYZCommonSwitchCell.swift in Sources */,
 				0A8BCF3C20EA0D1B003D593D /* IQActionSheetTitleBarButtonItem.m in Sources */,
 				0A8BCF4F20EA0D1B003D593D /* GYZTool.swift in Sources */,
 				0A8BCF1D20EA0D1B003D593D /* LHSQuickLoginVC.swift in Sources */,
 				0A8BCF4B20EA0D1B003D593D /* GYZLunarFormatter.swift in Sources */,
+				0A6F3CD720EE13040011F20C /* LHSGeneralHeaderView.swift in Sources */,
+				0A6F3CCB20EDF9410011F20C /* ORSettingNotifyVC.swift in Sources */,
 				0A8BCF2A20EA0D1B003D593D /* AXBadgeView.swift in Sources */,
 				0A8BCF3F20EA0D1B003D593D /* GYZScanQrcodeVC.swift in Sources */,
+				0A6F3CCF20EDFCA80011F20C /* ORMyBusinessVC.swift in Sources */,
 				0A8BCF1220EA0D1B003D593D /* LHSAddPhotoView.swift in Sources */,
 				0A76D3E320EB5CF00019AE40 /* ORBindPhoneVC.swift in Sources */,
 				0A8BCF5020EA0D1B003D593D /* GYZCheckTool.m in Sources */,
@@ -970,6 +1003,7 @@
 				0A74840A20ECB156008368DA /* ORChartDetailVC.swift in Sources */,
 				0A8BCF1B20EA0D1B003D593D /* LHSUserInfoModel.swift in Sources */,
 				0A8BCF3B20EA0D1B003D593D /* IQActionSheetToolbar.m in Sources */,
+				0A6F3CD120EDFCF60011F20C /* GYZLabAndFieldView.swift in Sources */,
 				0A74841420ECBD7B008368DA /* ORLikesMeVC.swift in Sources */,
 				0A8BCF2E20EA0D1B003D593D /* HXTagsView.m in Sources */,
 				0A8BCF1520EA0D1B003D593D /* LHSSelectPayMethodView.swift in Sources */,
@@ -980,6 +1014,7 @@
 				0A8BCF4720EA0D1B003D593D /* ScrollSegmentView.swift in Sources */,
 				0A8BCE7020EA085A003D593D /* ViewController.swift in Sources */,
 				0A8BCF4420EA0D1B003D593D /* WXApiManager.swift in Sources */,
+				0A6F3CD920EE14270011F20C /* ORAccountCell.swift in Sources */,
 				0A8BCF3620EA0D1B003D593D /* MMShareSheet.swift in Sources */,
 				0A8BCF3720EA0D1B003D593D /* MMCardItem.swift in Sources */,
 				0A8BCF4320EA0D1B003D593D /* GYZSheetCell.swift in Sources */,
@@ -994,6 +1029,7 @@
 				0A8BCF2420EA0D1B003D593D /* GYZString+Extension.swift in Sources */,
 				0A8BCF1A20EA0D1B003D593D /* PWServiceCenterModel.swift in Sources */,
 				0A8BCF5520EA0DB6003D593D /* ORLikeVC.swift in Sources */,
+				0A6F3CC920EDEF7C0011F20C /* ORSettingVC.swift in Sources */,
 				0A8BCF4D20EA0D1B003D593D /* GYZAlertViewTools.swift in Sources */,
 				0A8BCF1620EA0D1B003D593D /* GYZMainTabBarVC.swift in Sources */,
 				0A8BCF2820EA0D1B003D593D /* GYZUIViewController+Loading.swift in Sources */,

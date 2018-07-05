@@ -98,7 +98,7 @@ class ORHomeCell: UITableViewCell {
         }
         sharedView.snp.makeConstraints { (make) in
             make.right.equalTo(-5)
-            make.bottom.equalTo(desLab.snp.top).offset(-5)
+            make.bottom.equalTo(desLab.snp.top).offset(-kMargin)
             make.height.equalTo(34)
             make.width.equalTo(30)
         }
