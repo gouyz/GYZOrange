@@ -64,7 +64,9 @@ class ORHomeVC: GYZBaseVC {
 
     /// 搜索
     @objc func clickedSearchBtn(){
-        
+        let searchVC = ORSearchMangerVC()
+        let navVC = GYZBaseNavigationVC(rootViewController : searchVC)
+        self.present(navVC, animated: false, completion: nil)
     }
     /// 消息
     @objc func clickedMessageBtn(){

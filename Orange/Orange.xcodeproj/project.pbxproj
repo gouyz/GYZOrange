@@ -102,6 +102,19 @@
 		0A8BCF5520EA0DB6003D593D /* ORLikeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BCF5420EA0DB6003D593D /* ORLikeVC.swift */; };
 		0A8BCF5720EA0DF9003D593D /* ORPublishVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BCF5620EA0DF9003D593D /* ORPublishVC.swift */; };
 		0A8BCF5920EA0E3C003D593D /* ORMineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BCF5820EA0E3C003D593D /* ORMineVC.swift */; };
+		0A93035920EEF68500A7F8E5 /* ORSearchMangerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A93035820EEF68500A7F8E5 /* ORSearchMangerVC.swift */; };
+		0A93035B20EF087600A7F8E5 /* ORSearchUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A93035A20EF087600A7F8E5 /* ORSearchUserVC.swift */; };
+		0A93035D20EF089400A7F8E5 /* ORSearchContentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A93035C20EF089400A7F8E5 /* ORSearchContentVC.swift */; };
+		0A93035F20EF0D3A00A7F8E5 /* ORSearchContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A93035E20EF0D3A00A7F8E5 /* ORSearchContentCell.swift */; };
+		0A93036120EF0E3000A7F8E5 /* ORSearchContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A93036020EF0E3000A7F8E5 /* ORSearchContentHeaderView.swift */; };
+		0A93036320EF14DE00A7F8E5 /* ORSearchUserFriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A93036220EF14DE00A7F8E5 /* ORSearchUserFriendsCell.swift */; };
+		0A93036520EF161E00A7F8E5 /* ORUserfriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A93036420EF161E00A7F8E5 /* ORUserfriendsCell.swift */; };
+		0A93036720EF185900A7F8E5 /* ORUserHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A93036620EF185900A7F8E5 /* ORUserHeaderView.swift */; };
+		0A93036920EF19F300A7F8E5 /* ORSearchUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A93036820EF19F300A7F8E5 /* ORSearchUserCell.swift */; };
+		0A93036B20EF426A00A7F8E5 /* ORFriendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A93036A20EF426A00A7F8E5 /* ORFriendVC.swift */; };
+		0A93036D20EF490F00A7F8E5 /* ORMyLikesDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A93036C20EF490F00A7F8E5 /* ORMyLikesDetailVC.swift */; };
+		0A93037120EF51C000A7F8E5 /* ORMyLikesDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A93037020EF51C000A7F8E5 /* ORMyLikesDetailCell.swift */; };
+		0A93037320EF52FF00A7F8E5 /* ORMyLikesConmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A93037220EF52FF00A7F8E5 /* ORMyLikesConmentCell.swift */; };
 		FF5DC4CBC23D3DE93A3225A1 /* Pods_Orange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EEB2B3F5CF6D582429FA875 /* Pods_Orange.framework */; };
 /* End PBXBuildFile section */
 
@@ -235,6 +248,19 @@
 		0A8BCF5620EA0DF9003D593D /* ORPublishVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORPublishVC.swift; sourceTree = "<group>"; };
 		0A8BCF5820EA0E3C003D593D /* ORMineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORMineVC.swift; sourceTree = "<group>"; };
 		0A8BCF5A20EA1371003D593D /* Orange-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Orange-Bridging-Header.h"; sourceTree = "<group>"; };
+		0A93035820EEF68500A7F8E5 /* ORSearchMangerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORSearchMangerVC.swift; sourceTree = "<group>"; };
+		0A93035A20EF087600A7F8E5 /* ORSearchUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORSearchUserVC.swift; sourceTree = "<group>"; };
+		0A93035C20EF089400A7F8E5 /* ORSearchContentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORSearchContentVC.swift; sourceTree = "<group>"; };
+		0A93035E20EF0D3A00A7F8E5 /* ORSearchContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORSearchContentCell.swift; sourceTree = "<group>"; };
+		0A93036020EF0E3000A7F8E5 /* ORSearchContentHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORSearchContentHeaderView.swift; sourceTree = "<group>"; };
+		0A93036220EF14DE00A7F8E5 /* ORSearchUserFriendsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORSearchUserFriendsCell.swift; sourceTree = "<group>"; };
+		0A93036420EF161E00A7F8E5 /* ORUserfriendsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORUserfriendsCell.swift; sourceTree = "<group>"; };
+		0A93036620EF185900A7F8E5 /* ORUserHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORUserHeaderView.swift; sourceTree = "<group>"; };
+		0A93036820EF19F300A7F8E5 /* ORSearchUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORSearchUserCell.swift; sourceTree = "<group>"; };
+		0A93036A20EF426A00A7F8E5 /* ORFriendVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORFriendVC.swift; sourceTree = "<group>"; };
+		0A93036C20EF490F00A7F8E5 /* ORMyLikesDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORMyLikesDetailVC.swift; sourceTree = "<group>"; };
+		0A93037020EF51C000A7F8E5 /* ORMyLikesDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORMyLikesDetailCell.swift; sourceTree = "<group>"; };
+		0A93037220EF52FF00A7F8E5 /* ORMyLikesConmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORMyLikesConmentCell.swift; sourceTree = "<group>"; };
 		40E460052EC787EA66324A39 /* Pods-Orange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orange.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Orange/Pods-Orange.debug.xcconfig"; sourceTree = "<group>"; };
 		84BDAC21858BBF99B153D2E6 /* Pods-Orange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orange.release.xcconfig"; path = "Pods/Target Support Files/Pods-Orange/Pods-Orange.release.xcconfig"; sourceTree = "<group>"; };
 		9EEB2B3F5CF6D582429FA875 /* Pods_Orange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Orange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -360,6 +386,10 @@
 				0A8BCF5220EA0D6E003D593D /* ORHomeVC.swift */,
 				0A74840520ECAFF3008368DA /* ORChartVC.swift */,
 				0A74840920ECB156008368DA /* ORChartDetailVC.swift */,
+				0A93035820EEF68500A7F8E5 /* ORSearchMangerVC.swift */,
+				0A93035A20EF087600A7F8E5 /* ORSearchUserVC.swift */,
+				0A93035C20EF089400A7F8E5 /* ORSearchContentVC.swift */,
+				0A93036A20EF426A00A7F8E5 /* ORFriendVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -370,6 +400,12 @@
 				0A74840D20ECB21B008368DA /* TAChartDetailCell.swift */,
 				0A74840120ECA0C8008368DA /* ORHomeCell.swift */,
 				0A74840720ECB082008368DA /* ORChartCell.swift */,
+				0A93035E20EF0D3A00A7F8E5 /* ORSearchContentCell.swift */,
+				0A93036020EF0E3000A7F8E5 /* ORSearchContentHeaderView.swift */,
+				0A93036220EF14DE00A7F8E5 /* ORSearchUserFriendsCell.swift */,
+				0A93036420EF161E00A7F8E5 /* ORUserfriendsCell.swift */,
+				0A93036620EF185900A7F8E5 /* ORUserHeaderView.swift */,
+				0A93036820EF19F300A7F8E5 /* ORSearchUserCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -397,6 +433,7 @@
 				0A8BCF5420EA0DB6003D593D /* ORLikeVC.swift */,
 				0A74841120ECBCF9008368DA /* ORMyLikesVC.swift */,
 				0A74841320ECBD7B008368DA /* ORLikesMeVC.swift */,
+				0A93036C20EF490F00A7F8E5 /* ORMyLikesDetailVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -406,6 +443,8 @@
 			children = (
 				0A74841520ECBF55008368DA /* ORMyLikesCell.swift */,
 				0A74841720ECC358008368DA /* ORLikesMeCell.swift */,
+				0A93037020EF51C000A7F8E5 /* ORMyLikesDetailCell.swift */,
+				0A93037220EF52FF00A7F8E5 /* ORMyLikesConmentCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -960,6 +999,7 @@
 				0A74841820ECC358008368DA /* ORLikesMeCell.swift in Sources */,
 				0A8BCF1720EA0D1B003D593D /* GYZBaseWhiteNavVC.swift in Sources */,
 				0A8BCF4A20EA0D1B003D593D /* GYZUpdateVersionTool.swift in Sources */,
+				0A93036320EF14DE00A7F8E5 /* ORSearchUserFriendsCell.swift in Sources */,
 				0A8BCF3E20EA0D1B003D593D /* IQActionSheetViewController.m in Sources */,
 				0A8BCF1020EA0D1B003D593D /* LHSBaseModel.swift in Sources */,
 				0A8BCF2F20EA0D1B003D593D /* HXTagsCell.m in Sources */,
@@ -973,6 +1013,7 @@
 				0A6F3CD520EE0CF30011F20C /* ORMyAccountSafeVC.swift in Sources */,
 				0A8BCF1F20EA0D1B003D593D /* GYZUIView+Extension.swift in Sources */,
 				0A74840420ECA1C5008368DA /* GYZImgAndTxtBtnView.swift in Sources */,
+				0A93036920EF19F300A7F8E5 /* ORSearchUserCell.swift in Sources */,
 				0A8BCF5920EA0E3C003D593D /* ORMineVC.swift in Sources */,
 				0A74841020ECB2D7008368DA /* GYZBottomSendView.swift in Sources */,
 				0A8BCF5320EA0D6E003D593D /* ORHomeVC.swift in Sources */,
@@ -982,6 +1023,7 @@
 				0A8BCF1920EA0D1B003D593D /* GYZBaseVC.swift in Sources */,
 				0A6F3CCD20EDFA780011F20C /* GYZCommonSwitchCell.swift in Sources */,
 				0A8BCF3C20EA0D1B003D593D /* IQActionSheetTitleBarButtonItem.m in Sources */,
+				0A93036D20EF490F00A7F8E5 /* ORMyLikesDetailVC.swift in Sources */,
 				0A8BCF4F20EA0D1B003D593D /* GYZTool.swift in Sources */,
 				0A8BCF1D20EA0D1B003D593D /* LHSQuickLoginVC.swift in Sources */,
 				0A8BCF4B20EA0D1B003D593D /* GYZLunarFormatter.swift in Sources */,
@@ -990,9 +1032,11 @@
 				0A8BCF2A20EA0D1B003D593D /* AXBadgeView.swift in Sources */,
 				0A8BCF3F20EA0D1B003D593D /* GYZScanQrcodeVC.swift in Sources */,
 				0A6F3CCF20EDFCA80011F20C /* ORMyBusinessVC.swift in Sources */,
+				0A93037320EF52FF00A7F8E5 /* ORMyLikesConmentCell.swift in Sources */,
 				0A8BCF1220EA0D1B003D593D /* LHSAddPhotoView.swift in Sources */,
 				0A76D3E320EB5CF00019AE40 /* ORBindPhoneVC.swift in Sources */,
 				0A8BCF5020EA0D1B003D593D /* GYZCheckTool.m in Sources */,
+				0A93037120EF51C000A7F8E5 /* ORMyLikesDetailCell.swift in Sources */,
 				0A8BCF2920EA0D1B003D593D /* GYZEmptyView.swift in Sources */,
 				0A8BCF3020EA0D1B003D593D /* HXTagAttribute.m in Sources */,
 				0A8BCF5120EA0D1B003D593D /* GYZConst.swift in Sources */,
@@ -1007,9 +1051,13 @@
 				0A74841420ECBD7B008368DA /* ORLikesMeVC.swift in Sources */,
 				0A8BCF2E20EA0D1B003D593D /* HXTagsView.m in Sources */,
 				0A8BCF1520EA0D1B003D593D /* LHSSelectPayMethodView.swift in Sources */,
+				0A93036720EF185900A7F8E5 /* ORUserHeaderView.swift in Sources */,
 				0A8BCF4620EA0D1B003D593D /* ScrollPageView.swift in Sources */,
+				0A93035D20EF089400A7F8E5 /* ORSearchContentVC.swift in Sources */,
+				0A93035B20EF087600A7F8E5 /* ORSearchUserVC.swift in Sources */,
 				0A8BCF2B20EA0D1B003D593D /* LHSCustomAlertView.swift in Sources */,
 				0A8BCF2220EA0D1B003D593D /* GYZUIImage+Extension.swift in Sources */,
+				0A93035920EEF68500A7F8E5 /* ORSearchMangerVC.swift in Sources */,
 				0A74840E20ECB21B008368DA /* TAChartDetailCell.swift in Sources */,
 				0A8BCF4720EA0D1B003D593D /* ScrollSegmentView.swift in Sources */,
 				0A8BCE7020EA085A003D593D /* ViewController.swift in Sources */,
@@ -1019,6 +1067,9 @@
 				0A8BCF3720EA0D1B003D593D /* MMCardItem.swift in Sources */,
 				0A8BCF4320EA0D1B003D593D /* GYZSheetCell.swift in Sources */,
 				0A8BCE6E20EA085A003D593D /* AppDelegate.swift in Sources */,
+				0A93035F20EF0D3A00A7F8E5 /* ORSearchContentCell.swift in Sources */,
+				0A93036120EF0E3000A7F8E5 /* ORSearchContentHeaderView.swift in Sources */,
+				0A93036B20EF426A00A7F8E5 /* ORFriendVC.swift in Sources */,
 				0A8BCF2D20EA0D1B003D593D /* HXTagCollectionViewCell.m in Sources */,
 				0A8BCF2620EA0D1B003D593D /* GYZUIViewControl+Empty.swift in Sources */,
 				0A74840C20ECB1CB008368DA /* ORChartDetailModel.swift in Sources */,
@@ -1034,6 +1085,7 @@
 				0A8BCF1620EA0D1B003D593D /* GYZMainTabBarVC.swift in Sources */,
 				0A8BCF2820EA0D1B003D593D /* GYZUIViewController+Loading.swift in Sources */,
 				0A8BCF5720EA0DF9003D593D /* ORPublishVC.swift in Sources */,
+				0A93036520EF161E00A7F8E5 /* ORUserfriendsCell.swift in Sources */,
 				0A8BCF2720EA0D1B003D593D /* GYZDate+Extension.swift in Sources */,
 				0A8BCF1420EA0D1B003D593D /* LHSCheckView.swift in Sources */,
 			);

@@ -51,6 +51,7 @@ class GYZBottomSendView: UIView {
         txtField.font = k15Font
         txtField.placeholder = "写评论"
         txtField.backgroundColor = kWhiteColor
+        txtField.cornerRadius = kCornerRadius
         
         return txtField
     }()

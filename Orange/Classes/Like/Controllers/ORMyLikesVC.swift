@@ -61,6 +61,7 @@ extension ORMyLikesVC: UICollectionViewDataSource,UICollectionViewDelegate{
         return 1
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        
         return 16
     }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -73,5 +74,7 @@ extension ORMyLikesVC: UICollectionViewDataSource,UICollectionViewDelegate{
     // MARK: UICollectionViewDelegate的代理方法
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
+        let detailVC = ORMyLikesDetailVC()
+        navigationController?.pushViewController(detailVC, animated: true)
     }
 }

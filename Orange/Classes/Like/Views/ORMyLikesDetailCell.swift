@@ -1,19 +1,19 @@
 //
-//  ORHomeCell.swift
+//  ORMyLikesDetailCell.swift
 //  Orange
-//
-//  Created by gouyz on 2018/7/4.
+//  我喜欢的详情cell
+//  Created by gouyz on 2018/7/6.
 //  Copyright © 2018年 gyz. All rights reserved.
 //
 
 import UIKit
 
-class ORHomeCell: UITableViewCell {
+class ORMyLikesDetailCell: UITableViewCell {
 
     override init(style: UITableViewCellStyle, reuseIdentifier: String?){
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
-        contentView.backgroundColor = kBackgroundColor
+        contentView.backgroundColor = kWhiteColor
         setupUI()
     }
     
@@ -23,32 +23,24 @@ class ORHomeCell: UITableViewCell {
     
     func setupUI(){
         
-        contentView.addSubview(bgView)
-        bgView.backgroundColor = kWhiteColor
+        contentView.addSubview(userImgView)
+        contentView.addSubview(nameLab)
+        contentView.addSubview(addressTagImgView)
+        contentView.addSubview(addressLab)
+        contentView.addSubview(moreImgView)
         
-        bgView.addSubview(userImgView)
-        bgView.addSubview(nameLab)
-        bgView.addSubview(addressTagImgView)
-        bgView.addSubview(addressLab)
-        bgView.addSubview(moreImgView)
-        
-        bgView.addSubview(videoImgView)
+        contentView.addSubview(videoImgView)
         videoImgView.addSubview(playImgView)
         videoImgView.addSubview(videoTagImgView)
         
-        bgView.addSubview(photosImgView)
+        contentView.addSubview(photosImgView)
         
-        bgView.addSubview(likesView)
-        bgView.addSubview(commentView)
-        bgView.addSubview(sharedView)
+        contentView.addSubview(desLab)
+        contentView.addSubview(timeLab)
         
-        bgView.addSubview(desLab)
-        bgView.addSubview(timeLab)
-        
-        bgView.snp.makeConstraints { (make) in
-            make.left.right.bottom.equalTo(contentView)
-            make.top.equalTo(kMargin)
-        }
+        contentView.addSubview(likesView)
+        contentView.addSubview(commentView)
+        contentView.addSubview(sharedView)
         
         userImgView.snp.makeConstraints { (make) in
             make.left.equalTo(kMargin)
@@ -77,12 +69,12 @@ class ORHomeCell: UITableViewCell {
             make.size.equalTo(CGSize.init(width: 20, height: 5))
         }
         videoImgView.snp.makeConstraints { (make) in
-            make.left.right.equalTo(bgView)
+            make.left.right.equalTo(contentView)
             make.top.equalTo(userImgView.snp.bottom).offset(kMargin)
             make.height.equalTo(kScreenWidth)
         }
         photosImgView.snp.makeConstraints { (make) in
-            make.left.right.equalTo(bgView)
+            make.left.right.equalTo(contentView)
             make.top.equalTo(userImgView.snp.bottom).offset(kMargin)
             make.height.equalTo(kScreenWidth)
         }
@@ -96,20 +88,7 @@ class ORHomeCell: UITableViewCell {
             make.bottom.equalTo(-15)
             make.size.equalTo(CGSize.init(width: 24, height: 24))
         }
-        sharedView.snp.makeConstraints { (make) in
-            make.right.equalTo(-5)
-            make.bottom.equalTo(desLab.snp.top).offset(-kMargin)
-            make.height.equalTo(34)
-            make.width.equalTo(30)
-        }
-        commentView.snp.makeConstraints { (make) in
-            make.right.width.height.equalTo(sharedView)
-            make.bottom.equalTo(sharedView.snp.top).offset(-kMargin)
-        }
-        likesView.snp.makeConstraints { (make) in
-            make.right.width.height.equalTo(sharedView)
-            make.bottom.equalTo(commentView.snp.top).offset(-kMargin)
-        }
+        
         desLab.snp.makeConstraints { (make) in
             make.left.equalTo(kMargin)
             make.top.equalTo(videoImgView.snp.bottom).offset(5)
@@ -119,12 +98,24 @@ class ORHomeCell: UITableViewCell {
             make.left.right.equalTo(desLab)
             make.top.equalTo(desLab.snp.bottom)
             make.height.equalTo(20)
+        }
+        likesView.snp.makeConstraints { (make) in
+            make.top.width.height.equalTo(commentView)
+            make.right.equalTo(commentView.snp.left).offset(-30)
+        }
+        commentView.snp.makeConstraints { (make) in
+            make.top.equalTo(timeLab.snp.bottom).offset(kMargin)
+            make.centerX.equalTo(contentView)
+            make.height.equalTo(34)
+            make.width.equalTo(30)
             make.bottom.equalTo(-kMargin)
+        }
+        sharedView.snp.makeConstraints { (make) in
+            make.top.width.height.equalTo(commentView)
+            make.left.equalTo(commentView.snp.right).offset(30)
         }
         
     }
-    
-    lazy var bgView : UIView = UIView()
     
     /// 用户头像图片
     lazy var userImgView : UIImageView = {
@@ -207,9 +198,9 @@ class ORHomeCell: UITableViewCell {
     lazy var commentView: GYZImgAndTxtBtnView = {
         
         let view = GYZImgAndTxtBtnView()
-        view.menuImg.image = UIImage.init(named: "icon_conment_white")
+        view.menuImg.image = UIImage.init(named: "icon_conment_gray")
         view.menuTitle.text = "266"
-        view.menuTitle.textColor = kWhiteColor
+        view.menuTitle.textColor = kHeightGaryFontColor
         
         return view
         
@@ -218,9 +209,9 @@ class ORHomeCell: UITableViewCell {
     lazy var likesView: GYZImgAndTxtBtnView = {
         
         let view = GYZImgAndTxtBtnView()
-        view.menuImg.image = UIImage.init(named: "icon_heart_white")
+        view.menuImg.image = UIImage.init(named: "icon_heart_red")
         view.menuTitle.text = "1K+"
-        view.menuTitle.textColor = kWhiteColor
+        view.menuTitle.textColor = kHeightGaryFontColor
         
         return view
         
@@ -229,9 +220,9 @@ class ORHomeCell: UITableViewCell {
     lazy var sharedView: GYZImgAndTxtBtnView = {
         
         let view = GYZImgAndTxtBtnView()
-        view.menuImg.image = UIImage.init(named: "icon_transmit_white")
+        view.menuImg.image = UIImage.init(named: "icon_transmit_gray")
         view.menuTitle.text = "676"
-        view.menuTitle.textColor = kWhiteColor
+        view.menuTitle.textColor = kHeightGaryFontColor
         
         return view
         
